@@ -1,9 +1,9 @@
 package com.bori.swaggergithubpages
 
 import org.springframework.web.bind.annotation.GetMapping
-import kotlin.coroutines.RestrictsSuspension
+import org.springframework.web.bind.annotation.RestController
 
-@RestrictsSuspension
+@RestController
 class HelloController {
 
     @GetMapping("/hello")
