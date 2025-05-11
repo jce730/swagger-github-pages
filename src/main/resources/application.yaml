@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: swagger-github-pages
+
+springdoc:
+  swagger-ui:
+    url: /openapi.yaml
+    path: /swagger-ui.html
